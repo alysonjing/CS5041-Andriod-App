@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:enabled="true"
+        android:title="save"
+        android:id="@+id/action_save_idea"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="0"
+        app:showAsAction="always"
+        />
+    <item
+        android:enabled="true"
+        android:title="cancel"
+        android:id="@+id/action_cancel"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:iconTint="@color/colorAccent"
+        android:orderInCategory="0"
+        app:showAsAction="always"
+        />
+
+
+</menu>
